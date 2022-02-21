@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cnode官网</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./bootstrap-3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/echarts.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" href="#"><img
+                            src="https://static2.cnodejs.org/public/images/cnodejs_light.svg" alt=""></a>
+                    <form class=" navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="search">
+                        </div>
+
+                    </form>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right  " id="ccc">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">新手入门</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- 主体 -->
+        <div class="main">
+
+            <div class="row">
+                <!-- 左边 -->
+                <div class="col-sm-12 col-md-9 ">
+                    <div class="list">
+                        <ul class="line-top">
+                            <li><a href="##" class="top-tab current" data-tab="all">全部</a></li>
+                            <li><a href="##" class="top-tab" data-tab="good">精华</a></li>
+                            <li><a href="##" class="top-tab" data-tab='ask'>问答</a></li>
+                            <li><a href="##" class="top-tab " data-tab='job'>招聘</a></li>
+                            <li><a href="##" class="top-tab" data-tab='dev'>客户端测试</a></li>
+                        </ul>
+                        <!-- 请求数据 -->
+                        <div class="mainpart">
+
+
+
+                        </div>
+                    </div>
+                    <!-- 分页器 -->
+                    <nav aria-label="Page navigation ">
+                        <ul class="pagination ">
+                            <li class="back">
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#" data-page="1" class="ppage">1</a></li>
+                            <li><a href="#" data-page="2" class="ppage">2</a></li>
+                            <li><a href="#" data-page="3" class="ppage">3</a></li>
+                            <li><a href="#" data-page="4" class="ppage">4</a></li>
+                            <li><a href="#" data-page="5" class="ppage">5</a></li>
+                            <li><a href="#" data-page="6" class="ppage">6</a></li>
+                            <li><a href="#" data-page="7" class="ppage">7</a></li>
+                            <li><a href="#" data-page="8" class="ppage">8</a></li>
+                            <li><a href="#" data-page="9" class="ppage">9</a></li>
+                            <li><a href="#" data-page="10" class="ppage">10</a></li>
+                            <!-- <li><a href="#">...</a></li> -->
+                            <li class="end">
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- 右边 -->
+                <div class="col-md-3">
+                    <!-- 面板1 -->
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <p>cNode:Node.js专业中文社区</p>
+                            <p>您可以<a href="">登录</a> 或<a href="">注册</a>,也可以</p>
+                            <p>
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-info">通过GITHUB登录</button>
+
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 面板2 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">无人回复的话题</div>
+                        <div class="panel-body">
+                            <div>
+                                <a class="panell" href="/topic/620b1504a08b3976a009cb29"
+                                    title="【2月16日直播】学习指北：Node.js 2022 全解析">【2月16日直播】学习指北：Node.js 2022 全解析</a>
+                            </div>
+                            <div>
+                                <a class="panell" href="/topic/61e6c901994582697bf7de09"
+                                    title="看看CabloyJS是如何实现编辑页面脏标记的">看看CabloyJS是如何实现编辑页面脏标记的</a>
+                            </div>
+                            <div>
+                                <a class="panell" href="/topic/61f25152a08b395ea009c1bc"
+                                    title="我们团队是如何做到高效并行开发？">我们团队是如何做到高效并行开发？</a>
+                            </div>
+                            <div>
+                                <a class="panell" href="/topic/61f11212a08b393b9a09c0fb"
+                                    title="云原生体系下的微服务联调">云原生体系下的微服务联调</a>
+                            </div>
+                            <div>
+                                <a class="panell" href="/topic/61e0e6119945824515f7d9d4"
+                                    title="使用Tin快安装WordPress（全网最快安装法 100%成功）">使用Tin快安装WordPress（全网最快安装法 100%成功）</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 面板3 -->
+                    <div class="panel panel-default canzhao">
+                        <div class="panel-heading">积分榜 Top>>100</div>
+                        <div class="panel-body">
+                            <div id="nomain">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 友情社区 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">友情社区</div>
+                        <div class="panel-body">
+                            <div class="youqing">
+                                <a href=""><img src="	https://static2.cnodejs.org/public/images/ruby-china-20150529.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="youqing">
+                                <a href="">
+                                    <img src="https://static2.cnodejs.org/public/images/golangtc-logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="youqing">
+                                <a href="">
+                                    <img src="	https://static2.cnodejs.org/public/images/phphub-logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 二维码 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">客户端</div>
+                        <div class="panel-body">
+                          <a href="" class="erweima">
+                              <img src="	https://static.cnodejs.org/FtG0YVgQ6iginiLpf9W4_ShjiLfU" alt="">
+                              <p>客户端源码地址</p>
+                          </a>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+              
+            </div>
+            <div class="footer">
+                <p><a href="">RSS</a>  | <a href="">源码地址</a> </p>
+                <div>
+                  <p>CNode 社区为国内最专业的 Node.js 开源技术社区，致力于 Node.js 的技术研究。</p>
+                  <p class="fuwuqi">服务器搭建在
+                      <a href="https://www.digitalocean.com/?refcode=eba02656eeb3" target="_blank" class="sponsor_outlink" data-label="digitalocean">
+                        <img src="https://static2.cnodejs.org/public/images/digitalocean.png" title="digitalocean" alt="digitalocean" width="92px">
+                      </a>
+                    ，存储赞助商为
+                      <a href="http://www.qiniu.com/?ref=cnode" target="_blank" class="sponsor_outlink" data-label="qiniu_bottom">
+                        <img src="https://static2.cnodejs.org/public/images/qiniu.png" title="七牛云存储" alt="七牛云存储" width="115px">
+                      </a>
+                    </p>
+                    <p>新手搭建 Node.js 服务器，推荐使用无需备案的 <a href="https://www.digitalocean.com/?refcode=eba02656eeb3">DigitalOcean(https://www.digitalocean.com/)</a></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="goback">
+            返回顶部
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="./bootstrap-3.4.1/js/bootstrap.js">
+
+
+</script>
+<script src="./tools.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
